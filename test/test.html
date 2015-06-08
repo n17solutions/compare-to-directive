@@ -1,0 +1,19 @@
+<html ng-app="n17">
+	<head>
+		<title>Compare Validator Test Page</title>
+		<script type="text/javascript" src="../dist/inc-frameworks/n17-compare.js"></script>
+
+		<script type="text/javascript">
+			angular.module('n17', ['n17-validators']);
+		</script>
+	</head>
+
+	<body style="margin-top: 50px;">
+		<form novalidate name="testForm">
+			<input type="password" name="password" ng-model="user.password" />
+			<input type="password" name="comparePassword" ng-model="user.comparePassword" compare-to="user.password" />
+		</form>
+
+		<div ng-show="testForm.comparePassword.$error.compareTo">Fields do not match!</div>
+	</body>
+</html>

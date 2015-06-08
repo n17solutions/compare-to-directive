@@ -1,0 +1,41 @@
+{
+  "name": "n17-compare",
+  "version": "0.0.1",
+  "description": "Compares model objects for equality",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n17solutions/compare-to-directive.git"
+  },
+  "keywords": [
+    "n17",
+    "solutions",
+    "angular",
+    "directive",
+    "compare",
+    "validator"
+  ],
+  "author": "James Woodley <info@n17solutions.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n17solutions/compare-to-directive/issues"
+  },
+  "homepage": "https://github.com/n17solutions/compare-to-directive",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-webpack-build": "^0.11.1",
+    "lodash": "^3.9.3",
+    "ng-annotate-webpack-plugin": "^0.1.2",
+    "node-libs-browser": "^0.5.2",
+    "run-sequence": "^1.1.0",
+    "webpack": "^1.9.10",
+    "webpack-config": "^0.7.0"
+  },
+  "browser": {
+    "angular": "./bower_components/angular/index.js"
+  }
+}

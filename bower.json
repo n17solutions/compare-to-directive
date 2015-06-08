@@ -1,0 +1,32 @@
+{
+  "name": "n17-compare",
+  "version": "0.0.1",
+  "homepage": "https://github.com/n17solutions/compare-to-directive",
+  "authors": [
+    "James Woodley <info@n17solutions.com>"
+  ],
+  "description": "Compares model objects for equality",
+  "main": "index.js",
+  "keywords": [
+    "n17",
+    "solutions",
+    "angular",
+    "directive",
+    "compare",
+    "validator"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src",
+    "gulpfile.js",
+    "package.json",
+    "webpack.*"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.15"
+  }
+}
