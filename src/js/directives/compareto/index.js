@@ -33,7 +33,7 @@ module.exports = function($parse) {
 					return ctrl.$viewValue.toLowerCase() === match.toLowerCase();
 				}
 
-				return ctrl.$viewValue === match;
+				return ctrl.$viewValue === match || match === '';
 			};
 
 			scope.$watch(getCompareValue, function() {

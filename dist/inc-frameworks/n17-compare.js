@@ -26547,7 +26547,7 @@ return /******/ (function(modules) { // webpackBootstrap
 						return ctrl.$viewValue.toLowerCase() === match.toLowerCase();
 					}
 
-					return ctrl.$viewValue === match;
+					return ctrl.$viewValue === match || match === '';
 				};
 
 				scope.$watch(getCompareValue, function() {
