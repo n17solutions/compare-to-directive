@@ -116,7 +116,7 @@ return /******/ (function(modules) { // webpackBootstrap
 						return ctrl.$viewValue.toLowerCase() === match.toLowerCase();
 					}
 
-					return ctrl.$viewValue === match || match === '';
+					return ctrl.$viewValue === match;
 				};
 
 				scope.$watch(getCompareValue, function() {

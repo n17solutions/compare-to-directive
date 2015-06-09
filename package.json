@@ -1,6 +1,6 @@
 {
   "name": "n17-compare",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Compares model objects for equality",
   "main": "index.js",
   "scripts": {
